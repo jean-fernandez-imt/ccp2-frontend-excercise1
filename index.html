@@ -4,11 +4,45 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>Code Chrysalis</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Front-End Exercise 1</title>
   </head>
-
+  
   <body>
-    <h1 id="title"></h1>
+    <div class="title">
+      New Account
+    </div>
+    
+    <div class="formArea">
+      <form id="newAccount">
+        <div class="formInput">
+          <label for="name">Name: </label>
+          <input id="name" type="text">
+        </div>
+        <div class="formInput">
+          <label for="email">Email: </label>
+          <input id="email" type="email">   
+        </div>
+        <div class="formInput">
+          <label for="password1">Password: </label>
+          <input id="password1" type="password">        
+        </div>
+        <div id="warning1" class="warning"></div>
+        <div class="formInput">
+          <label for="password2">Re-type password: </label>
+          <input id="password2" type="password">       
+        </div>
+        <div id="warning2" class="warning"></div>
+        <div class="formButton">
+          <button type="button" id="create">Create Account</button>      
+        </div>
+      </form>
+    </div>
+    
+    <div class="link">
+      <a href="https://www.google.com">Already have an account? Sign in</a>
+    </div>
+
     <script src="./index.js"></script>
   </body>
 </html>

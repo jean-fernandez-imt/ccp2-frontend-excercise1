@@ -1,0 +1,21 @@
+body 
+{
+  padding-left: 35%;
+  padding-right: 35%;
+  padding-top: 5%;
+}
+
+*
+{
+  border: 1px solid black;
+}
+
+.title 
+{
+  text-align: center;
+}
+
+label 
+{
+  display: block;
+}
