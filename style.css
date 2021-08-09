@@ -1,21 +1,72 @@
 body 
 {
-  padding-left: 35%;
-  padding-right: 35%;
+  padding-left: 10%;
+  padding-right: 10%;
   padding-top: 5%;
-}
 
-*
-{
-  border: 1px solid black;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 30px;
 }
 
 .title 
 {
   text-align: center;
+  color: white;
+  background-color: #461c00;
+  font-size: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+}
+
+form 
+{
+  padding-left: 5%;
 }
 
 label 
 {
   display: block;
+  font-size: 25px;
+}
+
+input
+{
+  width: 91%;
+  margin-bottom: 15px;
+  font-size: 40px;
+  border-radius: 5px;
+}
+
+.warning 
+{
+  color: red;
+  font-size: 15px;
+}
+
+#create
+{
+  width: 92%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 2px solid #c4118e;
+  font-size: 30px;
+  color: white;
+  border-radius: 5px;
+  background-color: #c4118e;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  transition-duration: 0.4s;
+}
+
+#create:hover
+{
+  background-color: white; 
+  color: black; 
+}
+
+.link
+{
+  text-align: center;
+  font-size: 15px;
 }
